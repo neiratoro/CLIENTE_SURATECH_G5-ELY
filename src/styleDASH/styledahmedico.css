@@ -1,0 +1,148 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ffffff;
+    color: #374151;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+main {
+    padding: 2px;
+}
+
+/* Sección superior */
+.container-fluid {
+    background: linear-gradient(135deg, #112e5e, #11235e);
+    color: #f1f1f1;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgb(81, 7, 218);
+    margin-bottom: 30px; 
+    width: 100%;
+    height: 100;
+   
+}
+
+.container-fluid h4 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.container-fluid p {
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+.container-fluid i {
+    color: #93c5fd;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/*.imagen-fondo {
+    background-image: url('../../../assets/img/medicos.jpg'); /* Ruta de la imagen de fondo */
+   /* background-size: cover; /* Cubre todo el div */
+    /*background-position: center; /* Centra la imagen */
+    /*color: white; /* Cambia el color del texto si es necesario */
+    /*padding: 50px; /* Espaciado interno para que el texto no esté pegado a los bordes */
+    /*border-radius: 10px; /* Bordes redondeados opcionales */
+/*}*/
+/* Estilo para el contenedor del banner */
+.imagen-fondo {
+    height: 50vh; /* Ajusta la altura del banner */
+    object-fit: cover;
+    filter: brightness(70%); /* Oscurece ligeramente la imagen para mejorar el contraste del texto */
+    border-radius: 10px;
+}
+
+/* Texto superpuesto en el banner */
+.position-absolute {
+    color: #ffffff;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7); /* Agrega un sombreado para hacer el texto más legible */
+}
+
+.position-absolute h4 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.position-absolute p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+/* Iconos del banner */
+.position-absolute i {
+    color: #ffffff;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.position-absolute i:hover {
+    color: #3b82f6;
+    transform: scale(1.2);
+}
+
+/* Imagen adicional del banner */
+.img-fluid {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.container-fluid i:hover {
+    color: #0d1369;
+    transform: scale(1.2);
+}
+
+/* Imagen del medicoo */
+.container-fluid img {
+    max-width: 100%;
+    border-radius: 100px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.img-fluid{
+    width: 50%;
+    background-color: #f1f1f1;
+}
+
+/* Sección inferior */
+.container {
+    margin-top: 30px;
+}
+
+.row {
+    gap: 20px;
+    
+}
+
+.row .col {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.row .col:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Espaciado en dispositivos móviles */
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 20px;
+    }
+
+    .row .col {
+        padding: 15px;
+    }
+}

@@ -1,0 +1,165 @@
+/* body {
+    background: linear-gradient(135deg, #213d66 0%, #007bff7c 100%);
+} */
+
+
+
+/* .form-container:hover {
+    transform: translateY(-10px);
+} */
+.form-label{
+    font-size: large;
+    color: black;
+ }
+
+h3 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form.form-background {
+    position: relative; /* Posicionamiento relativo para el formulario */
+    background-color: rgba(248, 246, 246, 0.562); /* Fondo blanco con opacidad */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Para que el contenido no se desborde */
+}
+
+.imagen-Fondo {
+    position: absolute; /* Posicionamiento absoluto para la imagen */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Altura completa */
+    object-fit: cover; /* Cubrir el área del contenedor */
+    z-index: -1; /* Colocar la imagen detrás del formulario */
+}
+
+h3::before {
+    content: url(../../assets/img/icons8-doctor-50.png);
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+/* .welcome-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+} */
+
+/* .welcome-image:hover {
+    transform: scale(1.05);
+} */
+
+/* .welcome-message {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 20px 0;
+    color: #eb199a;
+} */
+
+.form-control {
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* .form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 8px rgba(40, 167, 69, 0.3);
+} */
+
+
+/* .input-group-text {
+    background-color: #063e75;
+    border-color: #db1939;
+} */
+
+.btn-primary {
+    background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+    border-color: #007bff;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #669ad1 0%, #004085 100%);
+}
+
+.btn {
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+
+/* .invalid-feedback {
+    color: red;
+    font-size: 0.875rem;
+} */
+
+/* .valid-feedback {
+    color: green;
+    font-size: 0.875rem;
+} */
+
+/* .masked-input {
+    background: url('https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js') no-repeat right center;
+} */
+
+/* .form-group i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+} */
+
+footer {
+    background-color: #1b3450;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none; 
+ }
+
+footer a:hover {
+    text-decoration: underline;
+} 
+
+/* .floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #28a745;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    font-size: 30px;
+    color: rgb(247, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.floating-btn:hover {
+    transform: scale(1.1);
+}*/ 
