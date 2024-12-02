@@ -22,8 +22,17 @@ buscarMedicamento()
         let nombre = document.createElement("h2")
         nombre.textContent=medicamento.nombre
 
+        let presentacion = document.createElement("h2")
+        presentacion.textContent=medicamento.presentacion
+
+        let dosis = document.createElement("h2")
+        dosis.textContent=medicamento.dosis
+
+
         //paso final (ORDENANDO LAS CARTAS)
         tarjetas.appendChild(nombre)
+        tarjetas.appendChild(presentacion)
+        tarjetas.appendChild(dosis)
         columna.appendChild(tarjetas)
         fila.appendChild(columna) 
     })

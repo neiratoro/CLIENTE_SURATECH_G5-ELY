@@ -66,6 +66,18 @@ buscarPaciente()
         correo.classList.add("card-text");
         correo.textContent = paciente.correo;
 
+        let telefono = document.createElement("p");
+        telefono.classList.add("card-text");
+        telefono.textContent = paciente.telefono;
+
+        let grupoIngresos = document.createElement("p");
+        grupoIngresos.classList.add("card-text");
+        grupoIngresos.textContent = paciente.grupoIngresos;
+
+        let ips = document.createElement("p");
+        ips.classList.add("card-text");
+        ips.textContent = paciente.ips;
+
         // 7. Asignar el color del badge según el campo "grupoIngresos" o el estado
         let estado = document.createElement("span");
         estado.classList.add("badge", "rounded-pill", "text-white");
@@ -97,6 +109,9 @@ buscarPaciente()
         // 8. Agregar los elementos a la tarjeta
         tarjetas.appendChild(nombre);
         tarjetas.appendChild(correo);
+        tarjetas.appendChild(telefono);
+        tarjetas.appendChild(ips);
+        tarjetas.appendChild(grupoIngresos);
         tarjetas.appendChild(estado);
         columna.appendChild(tarjetas);
 

@@ -23,8 +23,24 @@ buscarEnfermedad()
         let nombre = document.createElement("h2")
         nombre.textContent=enfermedad.nombre
 
+        let sintomas = document.createElement("p");
+        sintomas.classList.add("card-text");
+        sintomas.textContent = enfermedad.sintomas;
+
+        let clasificacion = document.createElement("p");
+        clasificacion.classList.add("card-text");
+        clasificacion.textContent = enfermedad.clasificacion;
+
+        
+        let grado = document.createElement("p");
+        grado.classList.add("card-text");
+        grado.textContent = enfermedad.grado;
+
         //paso final (ORDENANDO LAS CARTAS)
-        tarjetas.appendChild(nombre)
+        tarjetas.appendChild(nombre) 
+        tarjetas.appendChild(sintomas)
+        tarjetas.appendChild(clasificacion)
+        tarjetas.appendChild(grado)
         columna.appendChild(tarjetas)
         fila.appendChild(columna) 
     })
