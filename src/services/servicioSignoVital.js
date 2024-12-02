@@ -7,7 +7,6 @@ export async function buscarSignoVital() {
     }
 
 
-
     let respuestaServidor = await fetch(URL, peticion)
     let signoVital = await respuestaServidor.json()
     return signoVital

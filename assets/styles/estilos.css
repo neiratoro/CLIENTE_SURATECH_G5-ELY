@@ -226,3 +226,33 @@ body {
                     border-radius: 8px;
                     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
                 }
+
+                /*Estilos del formulario enfermendad*/
+
+                
+                h1{
+                    font-family: 'Rubik Dirt', cursive;
+                }
+
+                h3,h2{
+                    font-weight: bold;
+                    font-family: "Quicksand", sans-serif;
+                    font-family: "Share Tech Mono", monospace;
+                }
+
+                .service-box {
+                    width: 300px;
+                    height: 360px;
+                    background-color: #3498db; /* Color inicial */
+                    transition: background-color 0.5s ease, transform 0.3s ease; /* Transición suave */
+                    color: black;
+                    font-size: 18px;
+                    text-align: center;
+                    border-radius: 15px;
+                  }
+              
+                  /* Estilo al pasar el mouse */
+                  .service-box:hover {
+                    background-color: #2ecc71; /* Nuevo color */
+                    transform: scale(1.1); /* Efecto de agrandamiento */
+                  }
